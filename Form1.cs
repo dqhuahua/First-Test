@@ -83,6 +83,7 @@ namespace chartTest
 
         private void Form1_Load(object sender, EventArgs e)
         {            
+            //三个area重叠显示，一个area配一个series,只显示第一个area的Y轴，其它的隐藏
             ChartArea ca2 = new ChartArea("ChartArea2");
             chart1.ChartAreas.Add(ca2);
 
